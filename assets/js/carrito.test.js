@@ -118,7 +118,7 @@ describe("Carrito", function () {
       carrito.comprarProducto(event);
 
       expect(swalStub).to.have.been.calledWith({
-        icon: "warning",
+        icon: "error",
         title: "No tenemos stock suficiente, prueba con menos unidades",
         timer: 2500,
         showConfirmButton: false,
