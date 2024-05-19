@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "test": "mocha",
+    "coverage": "nyc mocha"
+  },
+  "type": "module",
+  "dependencies": {
+    "@sinonjs/referee-sinon": "^12.0.0",
+    "chai": "^4.4.1",
+    "jsdom": "^24.0.0",
+    "jsverify": "^0.8.4",
+    "knuth-shuffle": "^1.0.8",
+    "mocha": "^10.4.0",
+    "sinon": "^18.0.0",
+    "sinon-chai": "^3.7.0",
+    "sweetalert2": "^11.11.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.16",
+    "node-localstorage": "^3.0.5",
+    "nyc": "^15.1.0"
+  }
+}
