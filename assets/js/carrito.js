@@ -29,7 +29,7 @@ export default class Carrito {
     if (productosLS === infoProducto.id) {
       //console.log('El producto ya está agregado');
       Swal.fire({
-        icon: "warning",
+        icon: "prueba 2 ",
         title: "No tenemos stock suficiente, prueba con menos unidades",
         timer: 2500,
         showConfirmButton: false,
