@@ -81,7 +81,7 @@ describe("Carrito", function () {
       leerDatosProductoSpy.restore();
     });
 
-    it("should call leerDatosProducto with the correct arguments", function () {
+    it("should call swal with success when product can be added to cart", function () {
       const event = {
         preventDefault: sinon.spy(),
         target: createProductElement().querySelector(".agregar-carrito"),
